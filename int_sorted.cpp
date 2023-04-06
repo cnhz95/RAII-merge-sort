@@ -67,7 +67,7 @@ int_sorted int_sorted::merge(const int_sorted & merge_with) const {
 }
 
 int_sorted int_sorted::sort(const int* begin, const int* end) {
-    if (begin == end) { // Tom
+    if (begin == end) {
         return int_sorted(nullptr, 0);
     }
     if (begin == end - 1) {
